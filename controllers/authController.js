@@ -1,5 +1,5 @@
 ﻿const User = require('../models/User'); // Импорт модели пользователя
-const bcrypt = require('bcrypt');       // Для хеширования паролей
+const bcrypt = require('bcryptjs');       // Для хеширования паролей
 const jwt = require('jsonwebtoken');    // Для создания токенов
 
 // Регистрация нового пользователя
